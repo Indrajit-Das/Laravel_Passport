@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
  //   return $request->user();
 //});
 
-Route::get('hello',[HelloController::class,'hello']);
+Route::get('/hello',[HelloController::class,'hello']);
